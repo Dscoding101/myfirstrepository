@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Individual Registration</h1>
+    <form name="reg-frm">
+        <table cellpadding="10">
+            <tr>
+                <td>User ID</td>
+                <td><input type="text" name="name" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td>Confirm Password</td>
+                <td><input type="password" name="Cpassword" required></td>
+            </tr>
+            <tr>
+                <td>Security Question</td>
+                <td>
+                    <select name="Security Question" required>
+                        <option value="What is your pet name?">What is your pet name?</option>
+                        <option value="What is your school name?">What is your school name?</option>
+                        <option value="What is your father name?">What is your father name?</option>
+                        <option value="What is your favourite place?">What is your favourite place?</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Security Answer</td>
+                <td><input type="text" name="SA" required></td>
+            </tr>
+            <tr>
+            <td>Preferred Language</td>
+            <td>
+                <select name="Preferred Language" required>
+                    <option value="Hindi">Hindi</option>
+                    <option value="English">English</option>
+                    <option value="Bengali">Bengali</option>
+                    <option value="Urdu">Urdu</option>
+                    <option value="Malayalam">Malayalam</option>
+                </select>
+            </td>
+            </tr>
+        </table>
+    </form>
+    <h2>Personal Details</h2>
+    <form name="reg-frm">
+    <table cellpadding="10">
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" name="FName" required></td>
+        </tr>
+        <tr>
+            <td>Middle Name</td>
+            <td><input type="text" name="MName">&nbsp(Optional)</td>
+        </tr>
+        <tr>
+            <td>Last name</td>
+            <td><input type="text" name="LName" required></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="Gender" value="Male">Male
+                <input type="radio" name="Gender" value="Female">Female
+            </td>
+        </tr>
+        <tr>
+            <td>Marital Status</td>
+            <td>
+                <input type="radio" name="Marital Status" value="Married">Married
+                <input type="radio" name="Marital Status" value="Unmarried">Unmarried
+            </td>
+        </tr>
+        <tr>
+            <td>Date Of Birth</td>
+            <td><input type="date" name="DOB"></td>
+        </tr>
+        <tr>
+        <td>Occupation</td>
+        <td>
+            <select name="Occupation" required>
+                <option value="School Teacher">School Teacher</option>
+                <option value="Doctor">Doctor</option>
+                <option value="Journalist">Journalist</option>
+                <option value="Architect">Architect</option>
+                <option value="Police">Police</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td>Aadhaar Card No</td>
+            <td><input type="text" name="Aadhaar Card No">&nbsp(Optional)</td>
+        </tr>
+        <tr>
+            <td>PAN Card</td>
+            <td><input type="text" name="Pan Card">&nbsp(Optional)</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="Email" required></td>
+        </tr>
+        <tr>
+            <td>Mobile</td>
+            <td><input type="number" name="Mobile" required></td>
+        </tr>
+        <tr>
+            <td>Nationality</td>
+            <td><input type="text" name="Nationality" value="India" required></td>
+        </tr>
+    </table>
+    </form>
+    <h2>Residential address</h2>
+    <form name="reg-frm">
+        <table cellpadding="10">
+            <tr>
+                <td>Flat/Door/Block No.</td>
+                <td><input type="text" name="Block No" required></td>
+            </tr>
+            <tr>
+                <td>Street/Lane</td>
+                <td><input type="text" name="Street/lane">&nbsp(Optional)</td>
+            </tr>
+            <tr>
+                <td>Area/Locality</td>
+                <td><input type="text" name="Area">&nbsp(Optional)</td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td><input type="text" name="Country" value="India" required></td>
+            </tr>
+            <tr>
+                <td>pincode</td>
+                <td><input type="number" name="pincode" required></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><input type="text" name="State" value="West Bengal" required></td>
+            </tr>
+            <tr>
+                <td>City/Town</td>
+                <td>
+                    <select name="City/Town" required>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Howrah">Howrah</option>
+                        <option value="Malda">Malda</option>
+                        <option value="Bankura">Bankura</option>
+                        <option value="Jalpaiguri">Jalpaiguri</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Post Office</td>
+                <td><input type="text" name="Post Office" required></td>
+            </tr>
+            <tr>
+                <td>phone</td>
+                <td><input type="number" name="phone" required></td>
+            </tr>
+            <tr>
+                <td>Copy Residential to Office Address</td>
+                <td><input type="radio" name="Copy Residential to Office Address" value="Yes">Yes
+                    <input type="radio" name="Copy Residential to Office Address" value="No">No
+                </td>
+            </tr>
+        </table>
+    </form>
+    <p>
+        <font color="green">
+        <strong> Subscription to IRCTC New letters/Promotions/IRCTC SBI Card through email/ SMS</strong></font>
+        <font color="blue">
+            <br>IRCTC Newsletters<br>Commercial Promotions<br>Please inform me about IRCTC SBI Card through phone*
+        </font>
+    </p>
+    <form name="reg-frm">
+        <table cellpadding="10">
+            <tr>
+                <td align="center">
+                    <input type="submit" name="ok" value="Submit Registration form>>>">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
