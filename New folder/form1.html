@@ -6,20 +6,34 @@
     <title>Registration</title>
 </head>
 <body>
-    <h1>Individual Registration</h1>
     <form name="reg-frm">
         <table cellpadding="10">
+            <thead>
+                <tr>
+               <th bgcolor="#87CEEB"><font size="5">Individual Registration</font></th>
+                </tr>
+                </thead>
+           <tbody>
+               <tr>
+                   <td colspan="10" bgcolor="#87CEEB">
+                     
+                       GARBAGE/JUNCK VALUES IN PROFILE MAY LEAD TO DEACTIVATION
+                   </td>
+                </tr>
             <tr>
                 <td>User ID</td>
-                <td><input type="text" name="name" required></td>
+                <td><input type="text" name="name" required><a href="Hello World" target="_blank">Check Availabilty</a><br>Between 3 to 10 character.only letter number and underscore allowed.</td>
             </tr>
             <tr>
                 <td>Password</td>
-                <td><input type="password" name="password" required></td>
+                <td><input type="password" name="password" required><br>Min 8 character & max 15 character.Password must contain at least one small& one capital alphabet and numaric digit</td>
             </tr>
             <tr>
                 <td>Confirm Password</td>
                 <td><input type="password" name="Cpassword" required></td>
+            </tr>
+            <tr>
+                <td colspan="10"> <p><font size="3" color="blue" width="100">you forget your password, we will identify you with this information </font></p></td>  
             </tr>
             <tr>
                 <td>Security Question</td>
@@ -50,9 +64,15 @@
             </tr>
         </table>
     </form>
-    <h2>Personal Details</h2>
+   
     <form name="reg-frm">
     <table cellpadding="10">
+    <thead>
+    <tr>
+                   <th bgcolor="#87CEEB"><font size="5">Personal Details</font></th>
+                    </tr>
+                    </thead>
+               <tbody>
         <tr>
             <td>First Name</td>
             <td><input type="text" name="FName" required></td>
@@ -113,13 +133,24 @@
         </tr>
         <tr>
             <td>Nationality</td>
-            <td><input type="text" name="Nationality" value="India" required></td>
+            <td>
+                <select name="county">
+                <option value="indian">indian</option>
+                <option value="amarican">amarican</option>
+                <option value="african">african</option>
+            </select></td>
         </tr>
+        </tbody>
     </table>
     </form>
-    <h2>Residential address</h2>
     <form name="reg-frm">
         <table cellpadding="10">
+        <thead>
+        <tr>
+        <th bgcolor="#87CEEB" align="left"><font size="5">Residential Address</font></th>
+        </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>Flat/Door/Block No.</td>
                 <td><input type="text" name="Block No" required></td>
@@ -165,24 +196,42 @@
                 <td><input type="number" name="phone" required></td>
             </tr>
             <tr>
-                <td>Copy Residential to Office Address</td>
+                <td><font color="blue">Copy Residential to Office Address</font></td>
                 <td><input type="radio" name="Copy Residential to Office Address" value="Yes">Yes
                     <input type="radio" name="Copy Residential to Office Address" value="No">No
                 </td>
             </tr>
+            <tr bgcolor="#87CEEB">
+                <td><font color="green">Subscription to IRCTC Newletters/Promotions/IRCTC SBI Card through email/ SMS</font></td>
+                </tr>
+                <tr>
+                    <td><font color="blue">IRCTC Newsletters</font></td>
+                <td>
+                    <input type="radio" name="IRCTC Newsletters" value="Yes">Yes
+                    <input type="radio" name="IRCTC Newsletters" value="No">No
+                </td>
+                </tr>
+                <tr>
+                <td><font color="blue">Commercial Promotions</font></td>
+                <td>
+                    <input type="radio" name="Commercial Promotions" value="Yes">Yes
+                    <input type="radio" name="Commercial Promotions" value="No">No
+                </td>
+            </tr>
+            <tr>
+                <td><font color="blue">Please Inform me about IRCTC SBI Card through phone*</font></td>
+                <td>
+                    <input type="radio" name="Please Inform me about IRCTC SBI Card through phone*" value="Yes">Yes
+                    <input type="radio" name="Please Inform me about IRCTC SBI Card through phone*" value="No">No
+                </td>
+            </tr>
+        </tbody>
         </table>
     </form>
-    <p>
-        <font color="green">
-        <strong> Subscription to IRCTC New letters/Promotions/IRCTC SBI Card through email/ SMS</strong></font>
-        <font color="blue">
-            <br>IRCTC Newsletters<br>Commercial Promotions<br>Please inform me about IRCTC SBI Card through phone*
-        </font>
-    </p>
     <form name="reg-frm">
-        <table cellpadding="10">
-            <tr>
-                <td align="center">
+        <table cellpadding="10" align="center">
+            <tr bgcolor="#87CEEB" >
+                <td >
                     <input type="submit" name="ok" value="Submit Registration form>>>">
                 </td>
             </tr>
